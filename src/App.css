@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
 .App {
     width: 480px;
     height: 700px;
