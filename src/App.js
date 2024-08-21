@@ -34,6 +34,7 @@ function App() {
             typeof weather.main !== "undefined" ? weather.main.temp > 16 ? "App hot" : "App cold" : "App"
         }>
             <main>
+                <div className='block'></div>
                 <div className='search-container'>
                     <input 
                         type='text'

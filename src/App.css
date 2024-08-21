@@ -6,7 +6,7 @@
 
 .App {
     width: 480px;
-    height: 800px;
+    height: 700px;
     margin: 2rem auto;
     background-image: url('https://images.pexels.com/photos/20641784/pexels-photo-20641784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
@@ -41,16 +41,22 @@
     transition: 0.2s ease;
 }
 
+.block{
+    padding-bottom: 10px;
+}
+
 .search-container {
     width: 100%;
     margin: 0 0 75px;
+    text-align: center;
 }
 
 .search-bar {
     color: black;
     font-size: 16px;
     display: block;
-    width: 100%;
+    width: 95%;
+    margin: auto;
     padding: 15px;
     border: none;
     outline: none;
